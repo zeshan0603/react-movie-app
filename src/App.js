@@ -5,7 +5,7 @@ import MovieCard from "./MovieCard";
 import Input from "./Input.jsx";
 import Empty from "./Empty.jsx";
 
-const API_URL = "http://www.omdbapi.com?apikey=7fab20b4";
+const API_URL = "https://www.omdbapi.com?apikey=7fab20b4";
 
 function App() {
   const imdb_URL = "https://www.imdb.com/title/";
@@ -25,9 +25,8 @@ function App() {
 
   return (
     <div className="app">
-
       <h1>MovieLand</h1>
-      
+
       <Input
         searchTerm_Prop={searchTerm}
         setSearchTermProp={setSearchTerm}
